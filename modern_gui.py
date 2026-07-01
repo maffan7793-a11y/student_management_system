@@ -338,7 +338,7 @@ style.map("Treeview.Heading", background=[("active", "#274c6b")])
 # Selected row color
 style.map(
     "Treeview",
-    background=[("selected", "#286391")]
+    background=[("selected", "#4FB435")]
 )
 
 
@@ -390,8 +390,8 @@ for i in range(20):
             tags=("oddrow",)
         )
 
-student_table.tag_configure("oddrow", background="#2b2b2b")
-student_table.tag_configure("evenrow", background="#353535")
+student_table.tag_configure("oddrow", background="#229ba6")
+student_table.tag_configure("evenrow", background="#922CB1")
 
 student_table["displaycolumns"] = ("ID", "Name", "Age", "Course")
 
